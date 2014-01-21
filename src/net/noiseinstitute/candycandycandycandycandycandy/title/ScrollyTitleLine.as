@@ -45,7 +45,7 @@ package net.noiseinstitute.candycandycandycandycandycandy.title {
         }
 
         private static function makeText(size:uint):Text {
-            var text:Text =new Text("CANDY");
+            var text:Text = new Text("CANDY");
             text.font = EmbeddedFonts.DOSIS_EXTRA_BOLD;
             text.size = size;
             text.color = 0xffffff;
