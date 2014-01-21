@@ -1,17 +1,18 @@
-package net.noiseinstitute.candycandycandycandycandycandy {
+package net.noiseinstitute.candycandycandycandycandycandy.title {
+    import net.noiseinstitute.candycandycandycandycandycandy.*;
     import net.flashpunk.Entity;
     import net.flashpunk.Graphic;
     import net.flashpunk.graphics.Graphiclist;
     import net.flashpunk.graphics.Text;
     import net.noiseinstitute.basecode.Range;
 
-    public class ScrollyTitle extends Entity {
+    public class ScrollyTitleLine extends Entity {
         private var xVelocity:Number;
 
         private var texts:Vector.<Text> = new <Text>[];
         private var textWidth:Number;
 
-        public function ScrollyTitle(size:uint, xVelocity:Number) {
+        public function ScrollyTitleLine(size:uint, xVelocity:Number) {
             this.xVelocity = xVelocity;
 
             var text:Text = makeText(size);
